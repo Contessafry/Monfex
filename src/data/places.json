@@ -2,22 +2,102 @@
     {
         "id": 1,
         "name": "Altavilla M.to",
-        "description": "lorem ipsum doloret amet",
-        "image": "image_name.jpg",
+        "description": "Circondato da dolci colline e vigneti, questo pittoresco paese unisce una ricca storia a una tradizione enogastronomica che lo rende un luogo affascinante da visitare. La produzione di grappe, in particolare, è un elemento distintivo che attira appassionati e intenditori da ogni parte del mondo.",
+        "image": "Altavilla.jpg",
         "stg": [
-            "stg1",
-            "stg2",
-            "stg3"
+            "vino",
+            "grappa"
         ],
-        "productors": [
-            1,
-            2,
-            3
+        "productors": [],
+        "extra_labels": []
+    },
+    {
+        "id": 2,
+        "name": "Camagna M.to",
+        "description": "Conosciuto per i suoi paesaggi collinari e i , offre una vista mozzafiato e un'atmosfera tranquilla. Il borgo conserva un fascino storico con le sue stradine acciottolate e l'imponente chiesa parrocchiale di San Eusebio. È una destinazione ideale per gli amanti della natura e della cultura",
+        "image": "camagna.jpg",
+        "stg": [
+            "miele",
+            "salumi"
         ],
-        "extra_labels": [
-            "lorem ipsum doloret amet",
-            "lorem ipsum doloret amet",
-            "lorem ipsum doloret amet"
-        ]
+        "productors": [],
+        "extra_labels": []
+    },
+    {
+        "id": 3,
+        "name": "Vignale M.to",
+        "description": "Conosciuto per i suoi panorami mozzafiato e la sua tradizione vitivinicola, il paese offre un affascinante mix di storia, cultura e natura. Il centro storico è caratterizzato da antiche architetture e accoglienti stradine che raccontano secoli di storia. Vignale è anche noto per il suo festival di danza e musica, che attira visitatori da ogni parte.",
+        "image": "vignale.jpg",
+        "stg": [
+            "miele"
+        ],
+        "productors": [],
+        "extra_labels": []
+    },
+    {
+        "id": 4,
+        "name": "Castagnole M.to",
+        "description": "rinomato per la produzione di vini pregiati, in particolare il Ruchè, un vino rosso aromatico e raro. Il paese offre un panorama incantevole fatto di vigneti e dolci colline, ideale per passeggiate rilassanti. Castagnole Monferrato è anche ricco di tradizioni culturali e culinarie, che lo rendono una meta affascinante per gli amanti della buona tavola e della storia locale.",
+        "image": "castagnole.jpg",
+        "stg": [
+            "ruchè",
+            "grignolino",
+            "barbera del monferrato"
+        ],
+        "productors": [],
+        "extra_labels": []
+    },
+    {
+        "id": 5,
+        "name": "casale M.to",
+        "description": "onosciuta per la sua ricca storia e il patrimonio architettonico, offre splendidi esempi di arte barocca e rinascimentale. La città è circondata da colline e vigneti, rendendola un luogo ideale per gli amanti della natura e del vino. Inoltre, il fiume Po che scorre nelle vicinanze aggiunge un tocco di bellezza naturale al paesaggio.",
+        "image": "casale.jpg",
+        "stg": [
+            "krumiri",
+            "agnolotti",
+            "grappa",
+            "vino"
+        ],
+        "productors": [],
+        "extra_labels": []
+    },
+    {
+        "id": 6,
+        "name": "Sala M.to",
+        "description": "famoso per i suoi vigneti e il paesaggio pittoresco, Sala Monferrato offre un'atmosfera tranquilla e accogliente. Il borgo è caratterizzato da antiche architetture e tradizioni locali che affascinano i visitatori. È un luogo ideale per chi cerca una pausa dalla frenesia urbana e desidera godere della bellezza naturale e storica della regione.",
+        "image": "sala.jpg",
+        "stg": [
+            "salumi",
+            "vino"
+        ],
+        "productors": [],
+        "extra_labels": []
+    },
+    {
+        "id": 7,
+        "name": "Celle monte M.to",
+        "description": "not allowed",
+        "image": "celle-monte.jpg",
+        "stg": [],
+        "productors": [],
+        "extra_labels": []
+    },
+    {
+        "id": 8,
+        "name": "Conzano M.to",
+        "description": "not allowed",
+        "image": "conzano.jpg",
+        "stg": [],
+        "productors": [],
+        "extra_labels": []
+    },
+    {
+        "id": 9,
+        "name": "Rosignano M.to",
+        "description": "not allowed",
+        "image": "rosignano.jpg",
+        "stg": [],
+        "productors": [],
+        "extra_labels": []
     }
 ]
