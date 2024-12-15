@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Altavilla M.to",
+        "description": "lorem ipsum doloret amet",
+        "image": "image_name.jpg",
+        "stg": [
+            "stg1",
+            "stg2",
+            "stg3"
+        ],
+        "productors": [
+            1,
+            2,
+            3
+        ],
+        "extra_labels": [
+            "lorem ipsum doloret amet",
+            "lorem ipsum doloret amet",
+            "lorem ipsum doloret amet"
+        ]
+    }
+]

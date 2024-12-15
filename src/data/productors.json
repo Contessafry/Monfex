@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "place": 1,
+        "name": "productor1",
+        "description": "lorem ipsum dolor sit amet",
+        "image": "image_name.jpg",
+        "tags": [
+            "wine",
+            "cheese",
+            "meaat"
+        ],
+        "product": [
+            1,
+            2,
+            3
+        ],
+        "extra_labels": [
+            "Perché scegliere MonFex? Sostieni i piccoli produttori, riscopri la tradizione e assapora la qualità DOP.",
+            "Gusta l’eccellenza sostieni il territorio."
+        ]
+    }
+]

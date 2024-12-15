@@ -2,20 +2,91 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* reset.css */
+
+/* Rimuove margini e padding predefiniti */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Imposta il bordo di default per immagini, video e canvas */
+img,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
+/* Rimuove lo stile delle liste */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Rimuove decorazioni per i link */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Rende i pulsanti visivamente uniformi */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  outline: none;
+}
+
+/* Disabilita i numeri negli input number */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Gestisce la tipografia base */
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-family: sans-serif;
+}
+
+/* Rimuove il comportamento predefinito delle tabelle */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Rimuove il cursore di resize per textarea */
+textarea {
+  resize: none;
+}
+
+/* Rende gli elementi visibili senza contenuto cliccabili */
+button {
+  cursor: pointer;
+}
+
+/* Rimuove lo stile predefinito nei form */
+fieldset {
+  border: 0;
+}
+
+/* Rende uniformi gli elementi HTML */
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
 }

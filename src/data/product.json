@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "productor": 1,
+        "name": "Budapest",
+        "image": "image_name.jpg",
+        "description": "lorem ipsum dolor sit amet",
+        "is_saved": false,
+        "price": 34.49,
+        "summary": {
+            "left_label": "right_label",
+            "left_label2": "right_label",
+            "left_label3": "right_label"
+        },
+        "extra_info": [
+            {
+                "title": "lorem ipsum",
+                "description": "lorem ipsum dolor sit amet"
+            },
+            {
+                "title": "lorem ipsum",
+                "description": "lorem ipsum dolor sit amet"
+            },
+            {
+                "title": "lorem ipsum",
+                "description": "lorem ipsum dolor sit amet"
+            }
+        ]
+    }
+]
