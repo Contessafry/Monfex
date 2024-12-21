@@ -1,14 +1,9 @@
 import Header from "@/components/UI/Header";
 import TextMonfex from "@/components/UI/TextMonfex";
+import { PageProps } from "../../../.next/types/app/[place]/page";
 
-interface Props {
-  params: {
-    place: string;
-  };
-}
-
-export default function ProductorsPage({ params }: Props) {
-  const { place } = params;
+export default async function ProductorsPage({ params }: PageProps) {
+  const { place } = await params;
 
   return (
     <div>
