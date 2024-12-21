@@ -1,12 +1,12 @@
 [
     {
         "id": 1,
-        "productor": 1,
-        "name": "Budapest",
-        "image": "image_name.jpg",
-        "description": "lorem ipsum dolor sit amet",
+        "productor": 2,
+        "name": "Miele Millefiori di Camagna",
+        "image": "miele-millefiori.png",
+        "description": "Un miele dal sapore ricco e variegato, raccolto da fiori di diverse specie che fioriscono nei prati e nei boschi di Camagna. Ha un aroma floreale delicato e un retrogusto dolce che lo rende perfetto per dolcificare tè e yogurt.",
         "is_saved": false,
-        "price": 34.49,
+        "price": "8€ (pot.to 250g)",
         "summary": {
             "left_label": "right_label",
             "left_label2": "right_label",
@@ -14,16 +14,422 @@
         },
         "extra_info": [
             {
-                "title": "lorem ipsum",
-                "description": "lorem ipsum dolor sit amet"
+                "title": "Abbinamenti:",
+                "description": "Ottimo con formaggi freschi, nell'impasto di dolci e come dolcificante naturale per tisane e bevande."
             },
             {
-                "title": "lorem ipsum",
-                "description": "lorem ipsum dolor sit amet"
+                "title": "Allergeni:",
+                "description": "Nessun allergene noto, ma può contenere tracce di polline."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "productor": 2,
+        "name": "Miele di Castagno",
+        "image": "miele-di-castagno.png",
+        "description": "Un miele scuro e robusto, dal sapore intenso e leggermente amarognolo, prodotto principalmente dai fiori del castagno. Ha un profilo aromatico complesso, con note di caramello e nocciola.",
+        "is_saved": false,
+        "price": "10€ (pot.to 250g)",
+        "summary": {
+            "left_label": "right_label",
+            "left_label2": "right_label",
+            "left_label3": "right_label"
+        },
+        "extra_info": [
+            {
+                "title": "Abbinamenti:",
+                "description": "Eccellente con formaggi stagionati, carni rosse e come ingrediente per salse e marinature. "
             },
             {
-                "title": "lorem ipsum",
-                "description": "lorem ipsum dolor sit amet"
+                "title": "Allergeni:",
+                "description": "Nessun allergene noto, ma può contenere tracce di polline."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "productor": 3,
+        "name": "Nebbiolo Vignale Riserva",
+        "image": "nebbiolo-di-vignale.png",
+        "description": "Un vino rosso elegante con note di frutti di bosco, viola e un tocco di liquirizia. L'affinamento in legno gli conferisce complessità e un finale persistente.",
+        "is_saved": false,
+        "price": "28€",
+        "summary": {
+            "Annata:": "2019",
+            "Gradazione alcolica:": "14.5% vol"
+        },
+        "extra_info": [
+            {
+                "title": "Abbinamenti:",
+                "description": "Perfetto per piatti di selvaggina, brasati e formaggi stagionati."
+            },
+            {
+                "title": "Allergeni:",
+                "description": "Contiene solfiti."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "productor": 3,
+        "name": "Barbera",
+        "image": "barbera.png",
+        "description": "Intenso e rotondo, con aromi di prugna, ciliegia e spezie. È un vino corposo che esalta la tipicità della Barbera del Monferrato.",
+        "is_saved": false,
+        "price": "18€",
+        "summary": {
+            "Annata:": "2020",
+            "Gradazione alcolica:": "14% vol"
+        },
+        "extra_info": [
+            {
+                "title": "Abbinamenti:",
+                "description": "Ideale con pasta al ragù, carni alla griglia e piatti della tradizione piemontese."
+            },
+            {
+                "title": "Allergeni:",
+                "description": "Contiene solfiti."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "productor": 4,
+        "name": "Baci di Vignale",
+        "image": "baci-di-vignale.png",
+        "description": "Deliziosi biscotti farciti con una crema di nocciole del Monferrato. Friabili e golosi, sono perfetti per una pausa dolce.",
+        "is_saved": false,
+        "price": "8€ (confezione da 200g)",
+        "extra_info": [
+            {
+                "title": "Abbinamenti:",
+                "description": "Ottimi con un bicchierino di Moscato o con il tè."
+            },
+            {
+                "title": "Allergeni:",
+                "description": "Farina di frumento, nocciole, latte, uova, zucchero. Può contenere tracce di altri frutti a guscio."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "productor": 4,
+        "name": "Canestrelli Monferrini",
+        "image": "canestrelli-monferrini.png",
+        "description": "Biscotti burrosi e fragranti, resi unici dall'uso di ingredienti semplici e genuini. Sono caratterizzati dal loro caratteristico buco al centro e una generosa spolverata di zucchero a velo.",
+        "is_saved": false,
+        "price": "6€ (confezione da 150g)",
+        "extra_info": [
+            {
+                "title": "Abbinamenti:",
+                "description": "Perfetti per accompagnare il caffè o una cioccolata calda."
+            },
+            {
+                "title": "Allergeni:",
+                "description": "Farina di frumento, burro, zucchero, uova. Può contenere tracce di frutta secca e soia."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "productor": 6,
+        "name": "Grappa di Barbera ",
+        "image": "grappa-di-barbera.png",
+        "description": "Grappa intensa e complessa, con sentori di frutta secca e spezie. Una vera espressione della tradizione piemontese.",
+        "is_saved": false,
+        "price": "25€",
+        "extra_info": [
+            {
+                "title": "Abbinamenti:",
+                "description": "Perfetta da gustare dopo pasto, con cioccolato fondente o pasticceria secca."
+            },
+            {
+                "title": "Allergeni:",
+                "description": "Nessun allergene noto."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "productor": 6,
+        "name": "Liquore di Ribes",
+        "image": "liquore-di-ribes.png",
+        "description": "Liquore dolce e fruttato, realizzato con ribes freschi. Ha un sapore rinfrescante e aromatico.",
+        "is_saved": false,
+        "price": "18€",
+        "summary": {
+            "Annata:": "2022",
+            "Gradazione alcolica:": "20% vol"
+        },
+        "extra_info": [
+            {
+                "title": "Abbinamenti:",
+                "description": "Ottimo come aperitivo, servito ghiacciato o con acqua tonica."
+            },
+            {
+                "title": "Allergeni:",
+                "description": "Nessun allergene noto."
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "productor": 5,
+        "name": "Barbera d'Alta Qualità",
+        "image": "barbera-altavilla.png",
+        "description": "Vino rosso dal carattere rotondo e fruttato, con note di prugne mature e spezie dolci.",
+        "is_saved": false,
+        "price": "18€",
+        "summary": {
+            "Annata:": "2020",
+            "Gradazione alcolica:": "14% vol"
+        },
+        "extra_info": [
+            {
+                "title": "Abbinamenti:",
+                "description": "Ideale con pasta al sugo, arrosti e formaggi stagionati."
+            },
+            {
+                "title": "Allergeni:",
+                "description": "Contiene solfiti."
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "productor": 5,
+        "name": "Moscato",
+        "image": "moscato.png",
+        "description": "Un vino dolce e aromatico, con profumi di fiori bianchi e frutta fresca.",
+        "is_saved": false,
+        "price": "10€",
+        "summary": {
+            "Annata:": "2021",
+            "Gradazione alcolica:": "5% vol"
+        },
+        "extra_info": [
+            {
+                "title": "Abbinamenti:",
+                "description": "Ottimo come dessert o con frutta fresca."
+            },
+            {
+                "title": "Allergeni:",
+                "description": "Contiene solfiti."
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "productor": 7,
+        "name": "Grappa di Moscato",
+        "image": "grappa-di-moscato.png",
+        "description": "Grappa aromatica e dolce, derivante dalla distillazione delle vinacce di Moscato. Presenta note floreali e fruttate, con un finale morbido.",
+        "is_saved": false,
+        "price": "30€",
+        "summary": {
+            "Annata:": "2022",
+            "Gradazione alcolica:": "40% vol"
+        },
+        "extra_info": [
+            {
+                "title": "Abbinamenti:",
+                "description": "Perfetta da sorseggiare dopo pasto, accompagnata da cioccolato fondente o dolci."
+            },
+            {
+                "title": "Allergeni:",
+                "description": "Nessun allergene noto."
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "productor": 7,
+        "name": "Liquore al Rhabarbaro",
+        "image": "liquore-rabarbaro.png",
+        "description": "Liquore dolce e rinfrescante a base di rabarbaro, aromatizzato con erbe e spezie locali. Leggermente amaro, con un equilibrio unico di sapori.",
+        "is_saved": false,
+        "price": "22€",
+        "summary": {
+            "Annata:": "2021",
+            "Gradazione alcolica:": "25% vol"
+        },
+        "extra_info": [
+            {
+                "title": "Abbinamenti:",
+                "description": "Ottimo come aperitivo, servito su ghiaccio o come ingrediente in cocktail."
+            },
+            {
+                "title": "Allergeni:",
+                "description": "Nessun allergene noto."
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "productor": 8,
+        "name": "Biscotti di Nocciole",
+        "image": "biscotti-nocciole.png",
+        "description": "Fragranti biscotti preparati con nocciole locali, dal gusto intenso e aromatico. Perfetti per una merenda o per accompagnare il tè.",
+        "is_saved": false,
+        "price": "8€ (confezione da 200g)",
+        "extra_info": [
+            {
+                "title": "Abbinamenti:",
+                "description": "Ottimi con caffè o tè, o da gustare semplici."
+            },
+            {
+                "title": "Allergeni:",
+                "description": "Farina di frumento, nocciole, zucchero, burro, uova. Può contenere tracce di altri frutti a guscio."
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "productor": 8,
+        "name": "Biscotti di Vino",
+        "image": "biscotti-vino.png",
+        "description": "Biscotti croccanti e aromatici, preparati con vino rosso e spezie, che regalano un sapore unico e avvolgente.",
+        "is_saved": false,
+        "price": " 6€ (confezione da 150g)",
+        "extra_info": [
+            {
+                "title": "Abbinamenti:",
+                "description": "Ideali con un bicchierino di vino dolce o come snack durante le festività."
+            },
+            {
+                "title": "Allergeni:",
+                "description": "Farina di frumento, vino, zucchero, uova. Può contenere tracce di soia e latte."
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "productor": 9,
+        "name": "Ruchè di Castagnole Monferrato DOCG",
+        "image": "ruchè-castagnole.png",
+        "description": "Vino rosso aromatico con profumi di rosa e violetta, accompagnato da sentori di spezie. Intenso e armonico, è un vero emblema della regione.",
+        "is_saved": false,
+        "price": "18€",
+        "summary": {
+            "Annata:": "2021",
+            "Gradazione alcolica:": "14% vol"
+        },
+        "extra_info": [
+            {
+                "title": "Abbinamenti:",
+                "description": "Ideale con carni bianche, piatti a base di verdure e formaggi freschi."
+            },
+            {
+                "title": "Allergeni:",
+                "description": "Ideale con carni bianche, piatti a base di verdure e formaggi freschi."
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "productor": 9,
+        "name": "Ruchè Riserva",
+        "image": "ruchè-riserva.png",
+        "description": "Questa riserva offre una complessità maggiore, con note di frutta rossa matura, spezie dolci e un finale persistente.",
+        "is_saved": false,
+        "price": "25€",
+        "summary": {
+            "Annata:": "2019",
+            "Gradazione alcolica:": "14,5% vol"
+        },
+        "extra_info": [
+            {
+                "title": "Abbinamenti:",
+                "description": "Perfetto con arrosti, selvaggina e formaggi stagionati."
+            },
+            {
+                "title": "Allergeni:",
+                "description": "Contiene solfiti."
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "productor": "",
+        "name": "Dolcetto",
+        "image": "dolcetto.png",
+        "description": "Vino rosso fruttato con note di ciliegia e rumore amarena. Facile da bere e molto aromatico, evidenzia il meglio della varietà Dolcetto.",
+        "is_saved": false,
+        "price": "15€",
+        "summary": {
+            "Annata:": "2021",
+            "Gradazione alcolica:": "13,5% vol"
+        },
+        "extra_info": [
+            {
+                "title": "Abbinamenti:",
+                "description": "Ottimo con antipasti, piatti a base di carne bianca e pasta al pomodoro."
+            },
+            {
+                "title": "Allergeni:",
+                "description": "Contiene solfiti."
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "productor": "",
+        "name": "Barbera di Monferrato",
+        "image": "barbera-monferrato.png",
+        "description": "Vino rosso intenso con complessità e corpo, esprimendo note di prugna, spezie e legno.",
+        "is_saved": false,
+        "price": "18€",
+        "summary": {
+            "Annata:": "2020",
+            "Gradazione alcolica:": "14% vol"
+        },
+        "extra_info": [
+            {
+                "title": "Abbinamenti:",
+                "description": "Ideale con carni rosse, stufati e formaggi."
+            },
+            {
+                "title": "Allergeni:",
+                "description": "Contiene solfiti."
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "productor": "",
+        "name": "Salame di Monferrato",
+        "image": "salame.png",
+        "description": ": Un salame stagionato, realizzato con carne di maiale selezionata, pepe nero e spezie. Dal sapore ricco e aromatico, perfetto per ogni occasione.",
+        "is_saved": false,
+        "price": "12€ (confezione da 300g)",
+        "extra_info": [
+            {
+                "title": "Abbinamenti:",
+                "description": ":Ottimo come aperitivo, accompagnato da formaggi e pane casereccio."
+            },
+            {
+                "title": "Allergeni:",
+                "description": "Nessun allergene noto, ma può contenere tracce di allergeni vari."
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "productor": "",
+        "name": "Speck di Monferrato",
+        "image": "speck.png",
+        "description": "Speck affumicato, con una stagionatura di almeno 10 mesi, caratterizzato da un sapore affumicato e una consistenza morbida. Prodotto con carne di suino di alta qualità e aromi naturali, rappresenta una delizia per il palato.",
+        "is_saved": false,
+        "price": "14€ (confezione da 300g)",
+        "extra_info": [
+            {
+                "title": "Abbinamenti:",
+                "description": ":Ottimo da gustare in fettine sottili, abbinato a formaggi freschi e pane rustico, o in un tagliere misto di salumi."
+            },
+            {
+                "title": "Allergeni:",
+                "description": "Nessun allergene noto, ma può contenere tracce di allergeni vari."
             }
         ]
     }

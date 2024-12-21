@@ -1,19 +1,177 @@
 [
     {
         "id": 1,
-        "place": 1,
-        "name": "productor1",
-        "description": "lorem ipsum dolor sit amet",
+        "place": 2,
+        "name": "Cantina antica di Camagna",
+        "description": "Fondata nel 1952, la cantina antica di Camagna produce vini di alta qualità attraverso metodi tradizionali e sostenibili. La cantina è dedicata a valorizzare le uve autoctone della regione, creando vini che riflettono l'autenticità e il terroir locale.",
         "image": "image_name.jpg",
         "tags": [
-            "wine",
-            "cheese",
-            "meaat"
+            "wine"
+        ],
+        "product": [
+            ""
+        ],
+        "extra_labels": [
+            "Perché scegliere MonFex? Sostieni i piccoli produttori, riscopri la tradizione e assapora la qualità DOP.",
+            "Gusta l’eccellenza sostieni il territorio."
+        ]
+    },
+    {
+        "id": 2,
+        "place": 2,
+        "name": "Alveare sereno",
+        "description": "Alveare sereno è un'azienda locale dedicata alla produzione di mieli di alta qualità, provenienti dai fiori selvatici e dalle piante aromatiche delle colline del Monferrato. Fondata con amore per la natura e le tradizioni apistiche, la nostra missione è offrire prodotti puri e genuini, che riflettono il bouquet floreale unico del nostro territorio. Utilizziamo metodi di apicoltura sostenibili per garantire la salute delle nostre api e la qualità del nostro miele",
+        "image": "alveare-sereno.png",
+        "tags": [
+            "honey"
         ],
         "product": [
             1,
-            2,
-            3
+            2
+        ],
+        "extra_labels": [
+            "Perché scegliere MonFex? Sostieni i piccoli produttori, riscopri la tradizione e assapora la qualità DOP.",
+            "Gusta l’eccellenza sostieni il territorio."
+        ]
+    },
+    {
+        "id": 3,
+        "place": 3,
+        "name": "Terre di Vignale",
+        "description": "Situata tra le pittoresche colline di Vignale Monferrato, terre di vignale è un'azienda vinicola che unisce passione e tradizione per creare vini di altissima qualità. La cantina si concentra sulla valorizzazione delle varietà autoctone, producendo vini che sono un vero riflesso del territorio.",
+        "image": "terre-di-vignale.png",
+        "tags": [
+            "wine"
+        ],
+        "product": [
+            3,
+            4
+        ],
+        "extra_labels": [
+            "Perché scegliere MonFex? Sostieni i piccoli produttori, riscopri la tradizione e assapora la qualità DOP.",
+            "Gusta l’eccellenza sostieni il territorio."
+        ]
+    },
+    {
+        "id": 4,
+        "place": 3,
+        "name": "Dolcezze di Vignale",
+        "description": "Dolcezze di Vignale è un laboratorio artigianale che realizza biscotti secondo le ricette tradizionali del Monferrato. Utilizzando ingredienti locali e naturali, l'azienda si dedica a creare dolci che evocano i sapori e gli aromi della regione.",
+        "image": "dolcezze-di-vignale.png",
+        "tags": [
+            "cookies"
+        ],
+        "product": [
+            5,
+            6
+        ],
+        "extra_labels": [
+            "Perché scegliere MonFex? Sostieni i piccoli produttori, riscopri la tradizione e assapora la qualità DOP.",
+            "Gusta l’eccellenza sostieni il territorio."
+        ]
+    },
+    {
+        "id": 5,
+        "place": 1,
+        "name": "Cantina Altavilla",
+        "description": "La Cantina Altavilla è un'azienda vinicola a conduzione familiare situata nel cuore del Monferrato. Con un forte legame con il territorio e la tradizione, la cantina si dedica alla produzione di vini di alta qualità, utilizzando tecniche di coltivazione sostenibili e metodi di vinificazione artigianali.",
+        "image": "cantina-altavilla.png",
+        "tags": [
+            "wine"
+        ],
+        "product": [
+            10,
+            11
+        ],
+        "extra_labels": [
+            "Perché scegliere MonFex? Sostieni i piccoli produttori, riscopri la tradizione e assapora la qualità DOP.",
+            "Gusta l’eccellenza sostieni il territorio."
+        ]
+    },
+    {
+        "id": 6,
+        "place": 1,
+        "name": "Distilleria Montebello",
+        "description": "La Distilleria Montebello è un'azienda innovativa che produce distillati di alta qualità utilizzando materie prime locali. Situata ad Altavilla Monferrato, la distilleria è conosciuta per i suoi metodi artigianali e per l'attenzione ai dettagli, creando prodotti unici e ricchi di sapore.",
+        "image": "distilleria-montebello.png",
+        "tags": [
+            "wine"
+        ],
+        "product": [
+            7,
+            8,
+            9
+        ],
+        "extra_labels": [
+            "Perché scegliere MonFex? Sostieni i piccoli produttori, riscopri la tradizione e assapora la qualità DOP.",
+            "Gusta l’eccellenza sostieni il territorio."
+        ]
+    },
+    {
+        "id": 7,
+        "place": 5,
+        "name": "Gocce di Monferrato",
+        "description": "La Distilleria Gocce di Monferrato si trova nel cuore di Casale Monferrato, dove la tradizione si fonde con l'innovazione per creare distillati unici. Utilizzando materie prime locali e metodi artigianali, la distilleria è specializzata nella produzione di grappe e liquori che esprimono il carattere del territorio.",
+        "image": "gocce-di-monferrato.png",
+        "tags": [
+            "wine"
+        ],
+        "product": [
+            12,
+            13
+        ],
+        "extra_labels": [
+            "Perché scegliere MonFex? Sostieni i piccoli produttori, riscopri la tradizione e assapora la qualità DOP.",
+            "Gusta l’eccellenza sostieni il territorio."
+        ]
+    },
+    {
+        "id": 8,
+        "place": 5,
+        "name": "Sapori di Casale",
+        "description": "Sapori di Casale è un laboratorio artigianale che produce biscotti seguendo ricette tradizionali locali. Utilizzando ingredienti semplici e naturali, l'azienda crea dolci che richiamano i sapori e le tradizioni della cucina piemontese.",
+        "image": "sapori-di-casale.png",
+        "tags": [
+            "cookies"
+        ],
+        "product": [
+            14,
+            15
+        ],
+        "extra_labels": [
+            "Perché scegliere MonFex? Sostieni i piccoli produttori, riscopri la tradizione e assapora la qualità DOP.",
+            "Gusta l’eccellenza sostieni il territorio."
+        ]
+    },
+    {
+        "id": 9,
+        "place": 4,
+        "name": "Cantina del Ruchè",
+        "description": "Cantina del Ruchè è situata nel cuore di Castagnole Monferrato, famosa per coltivare questa varietà autoctona. La cantina si dedica a produrre vini che esprimono al meglio il territorio, combinando tecniche tradizionali e innovative.",
+        "image": "cantina-del-ruche.png",
+        "tags": [
+            "wine"
+        ],
+        "product": [
+            16,
+            17
+        ],
+        "extra_labels": [
+            "Perché scegliere MonFex? Sostieni i piccoli produttori, riscopri la tradizione e assapora la qualità DOP.",
+            "Gusta l’eccellenza sostieni il territorio."
+        ]
+    },
+    {
+        "id": 10,
+        "place": 4,
+        "name": "Vigne Monferrine",
+        "description": "Vigne Monferrine è un'azienda familiare dedicata a valorizzare le varietà autoctone del Monferrato. La loro filosofia si basa sul rispetto per la terra e una vinificazione attenta che esalta la qualità delle uve.",
+        "image": "vigne-monferrine.png",
+        "tags": [
+            "wine"
+        ],
+        "product": [
+            ""
         ],
         "extra_labels": [
             "Perché scegliere MonFex? Sostieni i piccoli produttori, riscopri la tradizione e assapora la qualità DOP.",

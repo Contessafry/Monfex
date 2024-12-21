@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Markazi_Text, Radley } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/UI/NavBar";
+import Footer from "@/components/UI/Footer";
 
 const markaziText = Markazi_Text({
   variable: "--font-markazi-text",
@@ -33,6 +34,7 @@ export default function RootLayout({
       <body className={`${markaziText.variable} ${radley.variable} antialiased bg-neutral font-markazi overflow-x-hidden`}>
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );
