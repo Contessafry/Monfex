@@ -3,11 +3,11 @@ import TextMonfex from "@/components/UI/TextMonfex";
 import { PageProps } from "../../../.next/types/app/[place]/page";
 
 export default async function ProductorsPage({ params }: PageProps) {
-  const { place } = await params;
+  const { place }: { place: string } = await params;
 
   return (
     <div>
-      <Header src={`/place/${place}.png`} />
+      <Header src={`/place/${place.toLowerCase()}.png`} />
 
       <div className="w-full flex items-center justify-center font-markazi text-6xl text-center my-7">
         <span className="text-blueT">
