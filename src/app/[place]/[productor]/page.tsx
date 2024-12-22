@@ -1,6 +1,5 @@
 import Header from "@/components/UI/Header";
 import TextMonfex from "@/components/UI/TextMonfex";
-import { PageProps } from "../../../.next/types/app/[place]/page";
 
 import placeJson from "@/data/places.json";
 import productorsJson from "@/data/productors.json";
@@ -8,27 +7,17 @@ import { ModelPlace } from "@/models/place";
 import { notFound } from "next/navigation";
 import SectionStg from "@/components/UI/SectionStg";
 import CardProductor from "@/components/UI/Cards/CardProductor";
-export default async function ProductorsPage({ params }: PageProps) {
-  const { place }: { place: string } = await params;
-  const placeInfo = placeJson.find((p) => p.id_n.toLowerCase() === place.toLowerCase());
-  if (!placeInfo) notFound();
+import { PageProps } from "../../../../.next/types/app/[place]/page";
 
-  const productors = productorsJson.filter((product) => product.place === placeInfo.id);
+export default async function ProductorPage({ params }: PageProps) {
+  const { place, productor }: { place: string; productor: string } = await params;
 
   return (
     <div>
-      <Header src={`/place/${place.toLowerCase()}.png`} />
+      <Header src={`/productors/${productor.toLowerCase()}.png`} />
       <div className="px-60 mt-6 ">
-        <span className="text-blueT text-4xl">{placeInfo.description}</span>
+        <span className="text-blueT text-4xl">{productor}</span>
 
-        <div className="w-full flex items-center justify-center mt-4">
-          <SectionStg stg={placeInfo.stg} />
-        </div>
-        <div className="w-full flex flex-col">
-          {productors.map((productor) => (
-            <CardProductor key={productor.id} productor={productor} />
-          ))}
-        </div>
         <div className="w-full flex items-center justify-center font-markazi text-6xl text-center my-7">
           <span className="text-blueT">
             <span className="font-bold">

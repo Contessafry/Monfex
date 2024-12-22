@@ -1,12 +1,15 @@
-import { ComponentProps } from "react";
+import Link from "next/link";
+import { PropsWithChildren } from "react";
 
-interface Props extends ComponentProps<"button"> {
+interface Props {
   variant?: "primary" | "secondary";
   size?: "small" | "medium" | "large";
+  href?: string;
   className?: string;
+  onClick?: () => void;
 }
 
-const Button = ({ children, variant = "primary", size = "medium", className, ...rest }: Props) => {
+const Button = ({ children, variant = "primary", size = "medium", className, href, onClick, ...rest }: PropsWithChildren<Props>) => {
   const commonClasses = "rounded-lg shadow-lg shadow-black/25  justify-center items-center inline-flex w-full py-1 border-solid border-2";
 
   const variantClasses = {
@@ -20,8 +23,15 @@ const Button = ({ children, variant = "primary", size = "medium", className, ...
     large: "text-2xl",
   };
 
+  if (href)
+    return (
+      <Link href={href} className={`${commonClasses} ${variantClasses[variant]} ${sizes[size]} ${className}  font-radley`} onClick={onClick} {...rest}>
+        {children}
+      </Link>
+    );
+
   return (
-    <button className={`${commonClasses} ${variantClasses[variant]} ${sizes[size]} ${className}  font-radley`} {...rest}>
+    <button className={`${commonClasses} ${variantClasses[variant]} ${sizes[size]} ${className}  font-radley`} onClick={onClick} {...rest}>
       {children}
     </button>
   );

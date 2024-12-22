@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "id_n": "altavilla",
         "name": "Altavilla M.to",
         "description": "Circondato da dolci colline e vigneti, questo pittoresco paese unisce una ricca storia a una tradizione enogastronomica che lo rende un luogo affascinante da visitare. La produzione di grappe, in particolare, è un elemento distintivo che attira appassionati e intenditori da ogni parte del mondo.",
         "image": "altavilla.png",
@@ -13,6 +14,7 @@
     },
     {
         "id": 2,
+        "id_n": "camagna",
         "name": "Camagna M.to",
         "description": "Conosciuto per i suoi paesaggi collinari e i , offre una vista mozzafiato e un'atmosfera tranquilla. Il borgo conserva un fascino storico con le sue stradine acciottolate e l'imponente chiesa parrocchiale di San Eusebio. È una destinazione ideale per gli amanti della natura e della cultura",
         "image": "camagna.png",
@@ -25,6 +27,7 @@
     },
     {
         "id": 3,
+        "id_n": "vignale",
         "name": "Vignale M.to",
         "description": "Conosciuto per i suoi panorami mozzafiato e la sua tradizione vitivinicola, il paese offre un affascinante mix di storia, cultura e natura. Il centro storico è caratterizzato da antiche architetture e accoglienti stradine che raccontano secoli di storia. Vignale è anche noto per il suo festival di danza e musica, che attira visitatori da ogni parte.",
         "image": "vignale.png",
@@ -36,6 +39,7 @@
     },
     {
         "id": 4,
+        "id_n": "castagnole",
         "name": "Castagnole M.to",
         "description": "rinomato per la produzione di vini pregiati, in particolare il Ruchè, un vino rosso aromatico e raro. Il paese offre un panorama incantevole fatto di vigneti e dolci colline, ideale per passeggiate rilassanti. Castagnole Monferrato è anche ricco di tradizioni culturali e culinarie, che lo rendono una meta affascinante per gli amanti della buona tavola e della storia locale.",
         "image": "altavilla.png",
@@ -49,6 +53,7 @@
     },
     {
         "id": 5,
+        "id_n": "casale",
         "name": "casale M.to",
         "description": "onosciuta per la sua ricca storia e il patrimonio architettonico, offre splendidi esempi di arte barocca e rinascimentale. La città è circondata da colline e vigneti, rendendola un luogo ideale per gli amanti della natura e del vino. Inoltre, il fiume Po che scorre nelle vicinanze aggiunge un tocco di bellezza naturale al paesaggio.",
         "image": "casale.png",
@@ -63,6 +68,7 @@
     },
     {
         "id": 6,
+        "id_n": "sala",
         "name": "Sala M.to",
         "description": "famoso per i suoi vigneti e il paesaggio pittoresco, Sala Monferrato offre un'atmosfera tranquilla e accogliente. Il borgo è caratterizzato da antiche architetture e tradizioni locali che affascinano i visitatori. È un luogo ideale per chi cerca una pausa dalla frenesia urbana e desidera godere della bellezza naturale e storica della regione.",
         "image": "sala.png",
@@ -75,6 +81,7 @@
     },
     {
         "id": 7,
+        "id_n": "celle-monte",
         "name": "Celle monte M.to",
         "description": "not allowed",
         "image": "cella-monte.png",
@@ -84,6 +91,7 @@
     },
     {
         "id": 8,
+        "id_n": "conzano",
         "name": "Conzano M.to",
         "description": "not allowed",
         "image": "conzano.png",
@@ -93,6 +101,7 @@
     },
     {
         "id": 9,
+        "id_n": "rosignano",
         "name": "Rosignano M.to",
         "description": "not allowed",
         "image": "rosignano.png",
