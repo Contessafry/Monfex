@@ -9,7 +9,7 @@ interface Props {
 const Header = ({ src = picWelcome.src }: Props) => {
   return (
     <header className="h-[520px] flex items-center justify-center relative">
-      <Image src={src} alt="header" width={0} height={0} sizes="100vw" className="absolute -z-10 w-full h-full object-cover filter brightness-50" />
+      <Image src={src} alt="header" width={300} height={100} sizes="100vw" quality={100} className="absolute -z-10 w-full h-full object-cover filter brightness-50 pointer-events-none" />
       <div className="w-full flex-col items-center justify-center max-w-xl">
         <h1 className="text-white text-[64px] text-center font-bold font-markazi ">
           I gusti <span className="text-[#083400] text-[64px] font-bold font-markazi">autentici</span>

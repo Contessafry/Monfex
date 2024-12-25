@@ -4,13 +4,15 @@ import { PageProps } from "../../../.next/types/app/[place]/page";
 
 import placeJson from "@/data/places.json";
 import productorsJson from "@/data/productors.json";
-import { ModelPlace } from "@/models/place";
 import { notFound } from "next/navigation";
 import SectionStg from "@/components/UI/SectionStg";
 import CardProductor from "@/components/UI/Cards/CardProductor";
+
 export default async function ProductorsPage({ params }: PageProps) {
   const { place }: { place: string } = await params;
+
   const placeInfo = placeJson.find((p) => p.id_n.toLowerCase() === place.toLowerCase());
+
   if (!placeInfo) notFound();
 
   const productors = productorsJson.filter((product) => product.place === placeInfo.id);
@@ -24,7 +26,7 @@ export default async function ProductorsPage({ params }: PageProps) {
         <div className="w-full flex items-center justify-center mt-4">
           <SectionStg stg={placeInfo.stg} />
         </div>
-        <div className="w-full flex flex-col">
+        <div className="w-full flex flex-col mt-16 gap-6">
           {productors.map((productor) => (
             <CardProductor key={productor.id} productor={productor} />
           ))}

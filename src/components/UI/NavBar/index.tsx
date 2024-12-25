@@ -4,6 +4,7 @@ import IconSearch from "@/components/icons/IconSearch";
 import IconUser from "@/components/icons/IconUser";
 import Link from "next/link";
 import React from "react";
+import ActionCart from "./(partials)/ActionCart";
 
 const NavBar = () => {
   return (
@@ -15,7 +16,7 @@ const NavBar = () => {
       <div className="items-center flex gap-10">
         <IconSearch />
         <IconUser />
-        <IconCart />
+        <ActionCart />
       </div>
     </div>
   );

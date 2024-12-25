@@ -351,7 +351,7 @@
     },
     {
         "id": 18,
-        "productor": "",
+        "productor": 0,
         "name": "Dolcetto",
         "image": "dolcetto.png",
         "description": "Vino rosso fruttato con note di ciliegia e rumore amarena. Facile da bere e molto aromatico, evidenzia il meglio della varietà Dolcetto.",
@@ -374,7 +374,7 @@
     },
     {
         "id": 19,
-        "productor": "",
+        "productor": 0,
         "name": "Barbera di Monferrato",
         "image": "barbera-monferrato.png",
         "description": "Vino rosso intenso con complessità e corpo, esprimendo note di prugna, spezie e legno.",
@@ -397,7 +397,7 @@
     },
     {
         "id": 20,
-        "productor": "",
+        "productor": 0,
         "name": "Salame di Monferrato",
         "image": "salame.png",
         "description": ": Un salame stagionato, realizzato con carne di maiale selezionata, pepe nero e spezie. Dal sapore ricco e aromatico, perfetto per ogni occasione.",
@@ -416,7 +416,7 @@
     },
     {
         "id": 21,
-        "productor": "",
+        "productor": 0,
         "name": "Speck di Monferrato",
         "image": "speck.png",
         "description": "Speck affumicato, con una stagionatura di almeno 10 mesi, caratterizzato da un sapore affumicato e una consistenza morbida. Prodotto con carne di suino di alta qualità e aromi naturali, rappresenta una delizia per il palato.",

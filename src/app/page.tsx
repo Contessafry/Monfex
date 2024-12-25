@@ -3,7 +3,7 @@ import CardProduct from "@/components/UI/Cards/CardProduct";
 import Header from "@/components/UI/Header";
 import TextMonfex from "@/components/UI/TextMonfex";
 import placesJson from "@/data/places.json";
-
+import productJson from "@/data/product.json";
 export default function Home() {
   return (
     <div>
@@ -39,7 +39,7 @@ export default function Home() {
       </div>
       <div className="  flex flex-col justify-center items-center ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24 p-4">
-          <CardProduct />
+          <CardProduct product={productJson[0]} />
         </div>
       </div>
     </div>
