@@ -7,7 +7,7 @@ import productJson from "@/data/product.json";
 export default function Home() {
   return (
     <div>
-      <Header />
+      <Header showHeading />
       <div className="  flex flex-col justify-center items-center ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24 p-4">
           {placesJson.slice(0, 6).map((place) => (
@@ -20,7 +20,7 @@ export default function Home() {
           <span className="font-bold">
             Perché scegliere <TextMonfex />?
           </span>
-          <br /> Sostieni i <span className="font-bold">piccoli produttori</span>, riscopri la tradizione e <br /> assapora la qualità <span className="font-bold text-accent">DOP</span>.
+          <br /> Sostieni i <span className="font-bold">piccoli produttori</span>, riscopri la tradizione e <br /> assapora la qualità <span className="font-bold text-accent">Locale</span>.
         </span>
       </div>
       <div className="  flex flex-col justify-center items-center ">

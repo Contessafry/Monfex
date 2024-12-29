@@ -16,7 +16,7 @@
         "id": 2,
         "id_n": "camagna",
         "name": "Camagna M.to",
-        "description": "Conosciuto per i suoi paesaggi collinari e i , offre una vista mozzafiato e un'atmosfera tranquilla. Il borgo conserva un fascino storico con le sue stradine acciottolate e l'imponente chiesa parrocchiale di San Eusebio. È una destinazione ideale per gli amanti della natura e della cultura",
+        "description": "Conosciuto per i suoi paesaggi collinari, offre una vista mozzafiato e un'atmosfera tranquilla. Il borgo conserva un fascino storico con le sue stradine acciottolate e l'imponente chiesa parrocchiale di San Eusebio. È una destinazione ideale per gli amanti della natura e della cultura",
         "image": "camagna.png",
         "stg": [
             "miele",
@@ -54,8 +54,8 @@
     {
         "id": 5,
         "id_n": "casale",
-        "name": "casale M.to",
-        "description": "onosciuta per la sua ricca storia e il patrimonio architettonico, offre splendidi esempi di arte barocca e rinascimentale. La città è circondata da colline e vigneti, rendendola un luogo ideale per gli amanti della natura e del vino. Inoltre, il fiume Po che scorre nelle vicinanze aggiunge un tocco di bellezza naturale al paesaggio.",
+        "name": "Casale M.to",
+        "description": "Conosciuta per la sua ricca storia e il patrimonio architettonico, offre splendidi esempi di arte barocca e rinascimentale. La città è circondata da colline e vigneti, rendendola un luogo ideale per gli amanti della natura e del vino. Inoltre, il fiume Po che scorre nelle vicinanze aggiunge un tocco di bellezza naturale al paesaggio.",
         "image": "casale.png",
         "stg": [
             "krumiri",
@@ -81,8 +81,8 @@
     },
     {
         "id": 7,
-        "id_n": "celle-monte",
-        "name": "Celle monte M.to",
+        "id_n": "cella-monte",
+        "name": "Cella Monte M.to",
         "description": "not allowed",
         "image": "cella-monte.png",
         "stg": [],

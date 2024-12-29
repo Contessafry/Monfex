@@ -4,7 +4,7 @@ import IconSearch from "@/components/icons/IconSearch";
 import IconUser from "@/components/icons/IconUser";
 import Link from "next/link";
 import React from "react";
-import ActionCart from "./(partials)/ActionCart";
+import ActionCart from "./(partials)/Cart/ActionCart";
 
 const NavBar = () => {
   return (

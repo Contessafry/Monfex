@@ -36,7 +36,7 @@ export default async function ProductorsPage({ params }: PageProps) {
             <span className="font-bold">
               Perché scegliere <TextMonfex />?
             </span>
-            <br /> Sostieni i <span className="font-bold">piccoli produttori</span>, riscopri la tradizione e <br /> assapora la qualità <span className="font-bold text-accent">DOP</span>.
+            <br /> Sostieni i <span className="font-bold">piccoli produttori</span>, riscopri la tradizione e <br /> assapora la qualità <span className="font-bold text-accent">Locale</span>.
           </span>
         </div>
 

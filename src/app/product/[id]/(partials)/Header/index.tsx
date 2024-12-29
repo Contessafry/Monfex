@@ -3,9 +3,8 @@ import ProductorJson from "@/data/productors.json";
 import Summary from "./(partials)/Summary";
 import Carousel from "./(partials)/Carousel";
 import Button from "@/components/UI/Button";
-import QuantitySelector from "@/components/UI/QuantitySelector";
 import IconSave from "@/components/icons/IconSave";
-import Price from "@/components/UI/Textual/Price";
+import ActionHeader from "./(partials)/ActionHeader";
 
 interface Props {
   product: ModelProduct;
@@ -41,13 +40,7 @@ const Header = ({ product }: Props) => {
           </div>
 
           {/* Bottom Section */}
-          <div className="w-full pt-2.5 flex justify-between items-end">
-            <div className="w-32 flex flex-col justify-center items-center gap-1.5">
-              <Price value={price} />
-              <QuantitySelector />
-            </div>
-            <Button className="max-w-48">Aggiungi al carrello</Button>
-          </div>
+          <ActionHeader product={product} />
         </div>
       </div>
       {/* Separator */}

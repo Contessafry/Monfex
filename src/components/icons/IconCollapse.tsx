@@ -17,7 +17,7 @@ const IconCollapse = ({ width = 27, height = 26, color = "#083400", ...rest }: P
     preserveAspectRatio="none"
     {...rest}
   >
-    <path d="M20.2648 16.2688L13.8388 9.84277L7.41284 16.2688" stroke={color} strokeWidth="2.5704" strokeLinecap="round" stroke-linejoin="round" />
+    <path d="M20.2648 16.2688L13.8388 9.84277L7.41284 16.2688" stroke={color} strokeWidth="2.5704" strokeLinecap="round" strokeLinejoin="round" />
   </svg>
 );
 

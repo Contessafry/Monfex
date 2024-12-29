@@ -5,6 +5,8 @@ import Image from "next/image";
 import { ModelProduct } from "@/models/product";
 import ProductorsJson from "@/data/productors.json";
 import IconSave from "@/components/icons/IconSave";
+import ActionAddToCart from "./(partials)/ActionAddToCart";
+import Price from "../../Textual/Price";
 interface Props {
   product: ModelProduct;
 }
@@ -24,11 +26,11 @@ const CardProduct = ({ product }: Props) => {
           <IconSave />
         </div>
         <div className="w-full justify-between items-start flex px-2">
-          <div className="text-center text-slate-800 text-[29.14px] font-bold font-['Markazi Text']">{product.name}</div>
-          <div className="self-stretch text-center text-slate-800 text-xl font-normal font-radley">{product.price}</div>
+          <div className="text-center text-slate-800 text-[29.14px] font-bold ">{name}</div>
+          <Price value={price} />
         </div>
         <div className=" w-full flex flex-col gap-3 px-3 pb-6">
-          <Button variant="primary">Aggiungi al carrello</Button>
+          <ActionAddToCart product={product} />
           <Button variant="secondary" href={`/product/${product.id}`}>
             Vedi dettagli
           </Button>
