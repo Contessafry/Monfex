@@ -1,7 +1,7 @@
 import CardPlace from "@/components/UI/Cards/CardPlace";
 import CardProduct from "@/components/UI/Cards/CardProduct";
 import Header from "@/components/UI/Header";
-import TextMonfex from "@/components/UI/TextMonfex";
+import TextMonfex from "@/components/UI/Textual/TextMonfex";
 import placesJson from "@/data/places.json";
 import productJson from "@/data/product.json";
 export default function Home() {

@@ -1,5 +1,5 @@
 import Header from "@/components/UI/Header";
-import TextMonfex from "@/components/UI/TextMonfex";
+import TextMonfex from "@/components/UI/Textual/TextMonfex";
 import { PageProps } from "../../../.next/types/app/[place]/page";
 
 import placeJson from "@/data/places.json";

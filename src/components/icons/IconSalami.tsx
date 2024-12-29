@@ -9,7 +9,7 @@ interface Props extends ComponentProps<"svg"> {
 const iconSalami = ({ size = 28, color = "black", ...rest }: Props) => {
   return (
     <svg width={size} height={size} viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" {...rest}>
-      <g clip-path="url(#clip0_234_1358)">
+      <g clipPath="url(#clip0_234_1358)">
         <path
           fill-rule="evenodd"
           clip-rule="evenodd"

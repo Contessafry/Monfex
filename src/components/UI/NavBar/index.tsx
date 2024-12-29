@@ -8,7 +8,7 @@ import ActionCart from "./(partials)/ActionCart";
 
 const NavBar = () => {
   return (
-    <div className="w-full justify-between items-center inline-flex py-2 px-4 fixed top-0 z-50">
+    <div className="w-full justify-between items-center inline-flex py-2 px-4 fixed top-0 z-50 bg-white/10 backdrop-blur-sm  shadow-md">
       <Link href={"/"}>
         <IconMonfexLogo />
       </Link>

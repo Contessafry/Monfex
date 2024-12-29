@@ -26,7 +26,7 @@ const CardProductor = ({ productor }: Props) => {
           </div>
         </div>
         <div className="self-stretch text-black text-2xl font-normal font-radley">
-          <span>{utlsTruncateText(description, 300)}</span>
+          <span>{utlsTruncateText(description, 200)}</span>
         </div>
         <ActionCardProductor ProductorName={name} />
       </div>
