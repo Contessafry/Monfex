@@ -14,11 +14,13 @@ const Header = ({ src = picWelcome.src, showHeading = false }: Props) => {
       <div className="w-full flex-col items-center justify-center max-w-xl">
         {showHeading && (
           <>
-            <h1 className="text-white text-[64px] text-center font-bold font-markazi ">
-              I gusti <span className="text-[#083400] text-[64px] font-bold font-markazi">autentici</span>
-              <span className="text-white text-[64px] font-bold font-markazi"> del Monferrato a casa tua</span>
+            <h1 className="text-white text-5xl md:text-[64px] text-center font-bold font-markazi ">
+              I gusti <span className="text-primary font-bold font-markazi">autentici</span>
+              <span className="text-white font-bold font-markazi"> del Monferrato a casa tua</span>
             </h1>
-            <SearchBar />
+            <div className="mx-7 md:mx-0">
+              <SearchBar />
+            </div>
           </>
         )}
         {false && <h2 className="self-stretch text-center text-white text-[61.50px] font-bold font-markazi">prodotti Locali d’eccellenza</h2>}

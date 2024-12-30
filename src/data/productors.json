@@ -4,7 +4,7 @@
         "place": 2,
         "name": "Cantina antica di Camagna",
         "description": "Fondata nel 1952, la cantina antica di Camagna produce vini di alta qualità attraverso metodi tradizionali e sostenibili. La cantina è dedicata a valorizzare le uve autoctone della regione, creando vini che riflettono l'autenticità e il terroir locale.",
-        "image": "image_name.jpg",
+        "image": "gocce-di-monferrato.png",
         "tags": [
             "wine"
         ],
@@ -172,6 +172,42 @@
         ],
         "product": [
             ""
+        ],
+        "extra_labels": [
+            "Perché scegliere MonFex? Sostieni i piccoli produttori, riscopri la tradizione e assapora la qualità DOP.",
+            "Gusta l’eccellenza sostieni il territorio."
+        ]
+    },
+    {
+        "id": 11,
+        "place": 6,
+        "name": "vini di Sala",
+        "description": "Sala Vigneti è un’azienda vinicola che si estende sulle splendide colline di Sala Monferrato. Con una storia radicata nelle tradizioni vitivinicole locali, l’azienda produce vini che riflettono l'autenticità del territorio. La cantina è caratterizzata da un forte impegno per la sostenibilità e per l’uso di tecniche di vinificazione tradizionali",
+        "image": "vini-di-sala.png",
+        "tags": [
+            "wine"
+        ],
+        "product": [
+            18,
+            19
+        ],
+        "extra_labels": [
+            "Perché scegliere MonFex? Sostieni i piccoli produttori, riscopri la tradizione e assapora la qualità DOP.",
+            "Gusta l’eccellenza sostieni il territorio."
+        ]
+    },
+    {
+        "id": 12,
+        "place": 6,
+        "name": "L'Arte del Salume",
+        "description": "Salumi di Sala è un laboratorio artigianale dedicato alla produzione di salumi tradizionali del Monferrato. Utilizzando ricette tramandate di generazione in generazione e carni selezionate da allevamenti locali, l'azienda è famosa per i suoi prodotti genuini e saporiti.",
+        "image": "arte-del-salume.png",
+        "tags": [
+            "meat"
+        ],
+        "product": [
+            20,
+            21
         ],
         "extra_labels": [
             "Perché scegliere MonFex? Sostieni i piccoli produttori, riscopri la tradizione e assapora la qualità DOP.",

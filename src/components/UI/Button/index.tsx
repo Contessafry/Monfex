@@ -20,7 +20,7 @@ const Button = ({ children, variant = "primary", size = "medium", className, hre
   const sizes = {
     small: "text-sm ",
     medium: " text-xl ",
-    large: "text-2xl",
+    large: "text-lg md:text-2xl",
   };
 
   if (href)
