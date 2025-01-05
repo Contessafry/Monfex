@@ -306,12 +306,13 @@
     {
         "id": 16,
         "productor": 9,
-        "name": "Ruchè di Castagnole Monferrato DOCG",
+        "name": "Ruchè",
         "image": "ruchè-castagnole.png",
         "description": "Vino rosso aromatico con profumi di rosa e violetta, accompagnato da sentori di spezie. Intenso e armonico, è un vero emblema della regione.",
         "is_saved": false,
         "price": "18€",
         "summary": {
+            "denominazione:": "Ruchè di Castagnole Monferrato DOCG",
             "Annata:": "2021",
             "Gradazione alcolica:": "14% vol"
         },
@@ -430,6 +431,131 @@
             {
                 "title": "Allergeni:",
                 "description": "Nessun allergene noto, ma può contenere tracce di allergeni vari."
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "productor": 1,
+        "name": "Barbera del Monferrato Superiore",
+        "image": "barbera-del-monferrato-superiore.png",
+        "description": "Un vino corposo e strutturato, con una profondità di sapore che rivela note di ciliegia nera, prugna matura e un leggero sottofondo di spezie e vaniglia, grazie all'affinamento in rovere.",
+        "is_saved": false,
+        "price": "18€",
+        "summary": {
+            "Annata:": "2020",
+            "tipologia:": "vino rosso",
+            "Gradazione alcolica:": "14% vol",
+            "denominazione:": "Barbera del Monferrato Superiore DOCG"
+        },
+        "extra_info": [
+            {
+                "title": "Allergeni:",
+                "description": "Contiene solfiti."
+            },
+            {
+                "title": "Abbinamenti:",
+                "description": "Perfetto con piatti di carne rossa, arrosti e formaggi stagionati."
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "productor": 1,
+        "name": "Grignolino del Monferrato",
+        "image": "grignolino-del-monferrato-camagna.png",
+        "description": "Leggero e fresco, presenta aromi di piccoli frutti rossi e una nota pepata. La struttura delicata lo rende un vino molto versatile.",
+        "is_saved": false,
+        "price": "12€",
+        "summary": {
+            "Annata:": "2021",
+            "tipologia:": "vino rosso",
+            "Gradazione alcolica:": "13% vol",
+            "denominazione:": "Grignolino del Monferrato DOC"
+        },
+        "extra_info": [
+            {
+                "title": "Allergeni:",
+                "description": "Contiene solfiti."
+            },
+            {
+                "title": "Abbinamenti:",
+                "description": "Ottimo con salumi, antipasti misti e formaggi freschi."
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "productor": 1,
+        "name": "Cortese Monferrato",
+        "image": "cortese-monferrato.png",
+        "description": "Fresco e aromatico, il Cortese presenta profumi di mela verde, agrumi e una leggera nota minerale. È equilibrato e piacevolmente vivace.",
+        "is_saved": false,
+        "price": "14€",
+        "summary": {
+            "Annata:": "2022",
+            "tipologia:": "vino bianco",
+            "Gradazione alcolica:": "12.5% vol",
+            "denominazione:": "Cortese Monferrato DOC"
+        },
+        "extra_info": [
+            {
+                "title": "Allergeni:",
+                "description": "Contiene solfiti."
+            },
+            {
+                "title": "Abbinamenti:",
+                "description": "Ideale con piatti di pesce, insalate e antipasti leggeri."
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "productor": 10,
+        "name": "Grignolino del Monferrato Casalese",
+        "image": "grignolino-del-monferrato-casalese.png",
+        "description": "Un vino rosso leggero e fruttato, con note di piccoli frutti rossi e un leggero sentore pepato. Fresco e versatile.",
+        "is_saved": false,
+        "price": "15€",
+        "summary": {
+            "Annata:": "2022",
+            "tipologia:": "vino rosso",
+            "Gradazione alcolica:": "13% vol",
+            "denominazione:": "Grignolino del Monferrato Casalese DOC"
+        },
+        "extra_info": [
+            {
+                "title": "Allergeni:",
+                "description": "Contiene solfiti."
+            },
+            {
+                "title": "Abbinamenti:",
+                "description": "Ottimo con antipasti, salumi e piatti di pesce."
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "productor": 10,
+        "name": "Barbera del Monferrato Superiore",
+        "image": "barbera-del-monferrato-superiore.png",
+        "description": "Un vino ricco e strutturato, con aromi di ciliegia nera, prugna e spezie. Buona acidità e finale lungo.",
+        "is_saved": false,
+        "price": "20€",
+        "summary": {
+            "Annata:": "2020",
+            "tipologia:": "vino rosso",
+            "Gradazione alcolica:": "14% vol",
+            "denominazione:": "Barbera del Monferrato Superiore DOCG"
+        },
+        "extra_info": [
+            {
+                "title": "Allergeni:",
+                "description": "Contiene solfiti."
+            },
+            {
+                "title": "Abbinamenti:",
+                "description": "Perfetto con carni rosse, grigliate e primi piatti robusti."
             }
         ]
     }
