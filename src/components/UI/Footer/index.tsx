@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex items-end justify-end bg-blue-dark h-60">
+    <div className="flex items-end justify-end bg-blue-dark h-60 relative z-50">
       <IconMonfexLogo />
     </div>
   );

@@ -20,7 +20,7 @@ const ActionHeader = ({ product }: Props) => {
   };
 
   return (
-    <div className="w-full pt-2.5 flex justify-between items-end">
+    <div className="w-full pt-2.5 flex md:static justify-between items-end fixed bottom-0 left-0 bg-neutral z-10 border-t md:border-none border-solid border-blueT p-4 md:p-0">
       <div className="w-32 flex flex-col justify-center items-center gap-1.5">
         <Price value={product.price} />
         <QuantitySelector onChange={(current) => setQuantity(current)} />

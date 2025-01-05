@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <Header showHeading />
       <div className="  flex flex-col justify-center items-center ">
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-24 py-6 px-4 md:py-4 ">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-24 py-6 md:px-4 md:py-4 ">
           {placesJson.slice(0, 6).map((place) => (
             <CardPlace key={place.id} place={place} />
           ))}
@@ -18,7 +18,7 @@ export default function Home() {
       </div>
       <TextWhyMonfex />
       <div className="  flex flex-col justify-center items-center ">
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-24 py-6 px-4 md:py-4 ">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-24 py-6 md:px-4 md:py-4 ">
           {placesJson.slice(6, 12).map((place) => (
             <CardPlace key={place.id} place={place} />
           ))}

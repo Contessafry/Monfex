@@ -17,7 +17,7 @@ const ProductPage = async ({ params }: PageProps) => {
     <div className="flex flex-col mt-20">
       <Toolbar />
       <Header product={ProductInfo} />
-      <div className="flex flex-col mx-40 my-7 gap-3">
+      <div className="flex flex-col mx-2 md:mx-40 my-7 gap-3">
         {extra_info.map((info, i) => (
           <Collapsable key={`${info.title}${i}`} info={info} defaultOpen={i === 0} />
         ))}
