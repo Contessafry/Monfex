@@ -18,7 +18,7 @@ export default async function ProductorPage({ params }: PageProps) {
   return (
     <div>
       <Header src={`/productors/${productorInfo.image}`} />
-      <div className="px-4 md:px-60 mt-6 ">
+      <div className="px-4 lg:px-7 xl:px-60 mt-6 ">
         <div className="w-full my-14">
           <span className="text-blueT text-4xl">{productorInfo.description}</span>
         </div>

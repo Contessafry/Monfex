@@ -15,7 +15,7 @@ const CardProduct = ({ product }: Props) => {
   const productorInfo = ProductorsJson.find((p) => p.id === productor);
 
   return (
-    <div className="min-w-80 max-w-80 h-full bg-white rounded-lg shadow-lg shadow-black/25 flex flex-col justify-between items-center ">
+    <div className=" w-72 h-full bg-white rounded-lg shadow-lg shadow-black/25 flex flex-col justify-between items-center ">
       <div className="relative self-stretch bg-black/10 rounded-t-lg  flex-col justify-end items-center flex">
         <Image width={2000} height={2000} className=" w-full height-full   object-bottom mix-blend-darken" src={`/product/${image}`} alt="" />
         <div className="absolute product-shape bg-white h-11" />
@@ -25,8 +25,8 @@ const CardProduct = ({ product }: Props) => {
           <div className="text-center text-[#6b778a] text-sm font-normal font-radley">{productorInfo?.name}</div>
           <IconSave />
         </div>
-        <div className="w-full justify-between items-start flex px-2">
-          <div className="text-center text-slate-800 text-[29.14px] font-bold ">{name}</div>
+        <div className="w-full justify-between items-start gap-2 flex px-2">
+          <div className="text-center text-slate-800 text-xl font-bold ">{name}</div>
           <Price value={price} />
         </div>
         <div className=" w-full flex flex-col gap-3 px-3 pb-6">

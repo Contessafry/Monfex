@@ -1,10 +1,10 @@
-import IconCart from "@/components/icons/IconCart";
 import IconMonfexLogo from "@/components/icons/IconMonfexLogo";
 import IconSearch from "@/components/icons/IconSearch";
 import IconUser from "@/components/icons/IconUser";
 import Link from "next/link";
 import React from "react";
 import ActionCart from "./(partials)/Cart/ActionCart";
+import ActionSearch from "./(partials)/search/ActionSerch";
 
 const NavBar = () => {
   return (
@@ -19,8 +19,8 @@ const NavBar = () => {
       </Link>
 
       <div className="items-center flex gap-6 md:gap-10">
-        <IconSearch />
-        <IconUser />
+        <ActionSearch />
+        <IconUser className=" w-7 md:w-9" />
         <ActionCart />
       </div>
     </div>
