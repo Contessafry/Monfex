@@ -5,9 +5,10 @@ import productorJson from "@/data/productors.json";
 import ProductJson from "@/data/product.json";
 import { notFound } from "next/navigation";
 import CardProduct from "@/components/UI/Cards/CardProduct";
+import GoBackAction from "@/components/UI/GoBackAction";
 export default async function ProductorPage({ params }: PageProps) {
   const { place, productor }: { place: string; productor: string } = await params;
-
+  const parsedPlaceName = decodeURIComponent(place);
   const parsedProductor = decodeURIComponent(productor);
   const productorInfo = productorJson.find((productor) => productor.name === parsedProductor);
 
@@ -18,11 +19,14 @@ export default async function ProductorPage({ params }: PageProps) {
   return (
     <div>
       <Header src={`/productors/${productorInfo.image}`} />
+      <div className="mt-4">
+        <GoBackAction text={`Torna a ${parsedPlaceName}`} textSize="text-4xl" />
+      </div>
       <div className="px-4 lg:px-7 xl:px-60 mt-6 ">
         <div className="w-full my-14">
-          <span className="text-blueT text-4xl">{productorInfo.description}</span>
+          <span className="text-blueT text-xl lg:text-4xl">{productorInfo.description}</span>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center lg:grid-cols-3 gap-24 md:p-4">
+        <div className="grid grid-cols-2 justify-items-center lg:grid-cols-3 gap-6 md:gap-24 md:p-4">
           {products.map((product) => (
             <CardProduct key={product.id} product={product} />
           ))}

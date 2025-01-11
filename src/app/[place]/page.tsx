@@ -1,5 +1,4 @@
 import Header from "@/components/UI/Header";
-import TextMonfex from "@/components/UI/Textual/TextMonfex";
 import { PageProps } from "../../../.next/types/app/[place]/page";
 
 import placeJson from "@/data/places.json";
@@ -8,6 +7,7 @@ import { notFound } from "next/navigation";
 import SectionStg from "@/components/UI/SectionStg";
 import CardProductor from "@/components/UI/Cards/CardProductor";
 import TextWhyMonfex from "@/components/UI/Textual/WhyMonfex";
+import GoBackAction from "../../components/UI/GoBackAction";
 
 export default async function ProductorsPage({ params }: PageProps) {
   const { place }: { place: string } = await params;
@@ -21,6 +21,9 @@ export default async function ProductorsPage({ params }: PageProps) {
   return (
     <div>
       <Header src={`/place/${place.toLowerCase()}.png`} />
+      <div className="mt-4">
+        <GoBackAction text={`Torna alla  home`} textSize="text-4xl" />
+      </div>
       <div className=" px-4 md:px-60 mt-6 ">
         <span className="text-blueT text-xl text-center text-pretty md:text-4xl">{placeInfo.description}</span>
 

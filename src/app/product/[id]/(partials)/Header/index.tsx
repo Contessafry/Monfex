@@ -1,18 +1,16 @@
 import { ModelProduct } from "@/models/product";
-import ProductorJson from "@/data/productors.json";
 import Summary from "./(partials)/Summary";
 import Carousel from "./(partials)/Carousel";
-import Button from "@/components/UI/Button";
 import IconSave from "@/components/icons/IconSave";
 import ActionHeader from "./(partials)/ActionHeader";
 
 interface Props {
   product: ModelProduct;
+  productorName: string;
 }
 
-const Header = ({ product }: Props) => {
-  const { name, productor, description, summary, image } = product;
-  const productorInfo = ProductorJson.find((p) => p.id === productor);
+const Header = ({ product, productorName }: Props) => {
+  const { name, description, summary, image } = product;
 
   return (
     <div className="my-3 px-2.5 flex-col justify-center items-center gap-2.5 flex">
@@ -28,7 +26,7 @@ const Header = ({ product }: Props) => {
         <div className="flex-1 flex flex-col order-2 justify-between min-h-[500px] h-full">
           {/* Top Section */}
           <div className="flex justify-between items-start">
-            <p className="text-grayT text-xl font-normal font-radley">{productorInfo?.name}</p>
+            <p className="text-grayT text-xl font-normal font-radley">{productorName}</p>
             <IconSave />
           </div>
 

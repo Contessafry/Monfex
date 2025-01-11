@@ -1,4 +1,5 @@
 import IconCheese from "@/components/icons/IconCheese";
+import IconCookies from "@/components/icons/IconCookies";
 import IconJar from "@/components/icons/IconJar";
 import IconSalami from "@/components/icons/IconSalami";
 import IconWine from "@/components/icons/IconWine";
@@ -18,7 +19,8 @@ const Tag = ({ name, ...rest }: Props) => {
       return <IconSalami {...rest} />;
     case "cheese":
       return <IconCheese {...rest} />;
-
+    case "cookies":
+      return <IconCookies {...rest} />;
     default:
       return <></>;
   }

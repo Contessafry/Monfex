@@ -25,9 +25,18 @@ const ActionAddToCart = ({ product }: Props) => {
   };
 
   return (
-    <Button variant="primary" onClick={handleAddToCart}>
-      Aggiungi al carrello
-    </Button>
+    <>
+      <div className="hidden md:block">
+        <Button variant="primary" onClick={handleAddToCart}>
+          Aggiungi al carrello
+        </Button>
+      </div>
+      <div className="md:hidden block">
+        <Button variant="primary" size="small" onClick={handleAddToCart}>
+          Aggiungi al carrello
+        </Button>
+      </div>
+    </>
   );
 };
 
