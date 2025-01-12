@@ -15,7 +15,7 @@ const CardProduct = ({ product }: Props) => {
   const productorInfo = ProductorsJson.find((p) => p.id === productor);
 
   return (
-    <div className=" w-44 md:w-72 h-full bg-white rounded-lg shadow-lg shadow-black/25 flex flex-col justify-between items-center ">
+    <div className=" w-44 md:w-72 md:h-[550px] h-full  bg-white rounded-lg shadow-lg shadow-black/25 flex flex-col justify-between items-center ">
       <div className="relative self-stretch bg-black/10 rounded-t-lg  flex-col justify-end items-center flex">
         <Image width={2000} height={2000} className=" w-full height-full   object-bottom mix-blend-darken" src={`/product/${image.toLowerCase()}`} alt="" />
         <div className="absolute product-shape bg-white h-11" />

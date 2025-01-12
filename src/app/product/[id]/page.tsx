@@ -17,7 +17,7 @@ const ProductPage = async ({ params }: PageProps) => {
 
   return (
     <div className="flex flex-col mt-20">
-      <GoBackAction text={`Torna a ${productorInfo?.name || ""}`} />
+      <GoBackAction text={`Torna a ${productorInfo?.name || ""}`} showMobile />
       <Header product={ProductInfo} productorName={productorInfo?.name || ""} />
       <div className="flex flex-col mx-2 md:mx-40 my-7 gap-3">
         {extra_info.map((info, i) => (

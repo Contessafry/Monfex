@@ -6,15 +6,16 @@ import React from "react";
 interface Props {
   text: string;
   textSize?: string;
+  showMobile?: boolean;
 }
 
-const GoBackAction = ({ text, textSize = "text-2xl" }: Props) => {
+const GoBackAction = ({ text, textSize = "text-2xl", showMobile = false }: Props) => {
   const router = useRouter();
 
   return (
-    <div className="w-full h-8 justify-start items-center gap-2.5 flex cursor-pointer" onClick={() => router.back()}>
+    <div className={`w-full h-8 justify-start items-center gap-2.5 flex cursor-pointer ${!showMobile && "hidden"} md:block`} onClick={() => router.back()}>
       <IconArrow />
-      <span className={`w-80 text-black  ${textSize} font-normal font-radley`}>{text}</span>
+      <span className={`w-80 text-black  ${textSize}  font-normal font-radley`}>{text}</span>
     </div>
   );
 };
