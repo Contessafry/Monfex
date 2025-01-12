@@ -20,7 +20,7 @@ export default async function ProductorsPage({ params }: PageProps) {
 
   return (
     <div>
-      <Header src={`/place/${placeInfo.image}.png`} />
+      <Header src={`/place/${placeInfo.image}`} />
       <div className="mt-4">
         <GoBackAction text={`Torna alla  home`} textSize="text-4xl" />
       </div>
