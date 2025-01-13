@@ -12,7 +12,7 @@ const ActionSearch = () => {
 
   return (
     <div className="relative">
-      <IconSearch className="cursor-pointer w-10 md:w-12" color={isOpenSearch ? "#4CAF4F" : "#1E293B"} onClick={() => setIsOpenSearch(!isOpenSearch)} />
+      <IconSearch className="cursor-pointer w-10 md:w-12" color={isOpenSearch ? "#4CAF4F" : "#1E293B"} onClick={() => setIsOpenSearch(true)} />
       <Drawer isOpen={isOpenSearch} onClose={() => setIsOpenSearch(false)} className="-right-[125px] md:-right-5" arrowClassName="px-[120px] md:px-5">
         <div className="flex flex-col gap-2 h-full w-full py-6">
           <div className="bg-white rounded-md px-4 py-2 mb-1 w-full">

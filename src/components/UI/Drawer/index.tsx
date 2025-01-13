@@ -18,22 +18,6 @@ const Drawer = ({ isOpen, onClose, children, className, title, arrowClassName = 
   const initialPathname = useRef(pathname);
 
   useEffect(() => {
-    const handleOutsideClick = (event: MouseEvent) => {
-      if (drawerRef.current && !drawerRef.current.contains(event.target as Node)) {
-        isOpen && onClose();
-      }
-    };
-
-    if (isOpen) {
-      document.addEventListener("mousedown", handleOutsideClick);
-    }
-
-    return () => {
-      document.removeEventListener("mousedown", handleOutsideClick);
-    };
-  }, [isOpen, onClose]);
-
-  useEffect(() => {
     if (pathname !== initialPathname.current) {
       onClose();
     }
