@@ -22,7 +22,7 @@ const ActionSearch = () => {
           {suggestions.length > 0 && (
             <div className="flex-grow w-full overflow-y-auto  rounded-md hide-scrollbar">
               {suggestions.map((suggestion, index) => (
-                <Link key={index} href={getHref(suggestion)}>
+                <Link key={index} href={getHref(suggestion)} onClick={() => setIsOpenSearch(false)}>
                   <div className="block p-2 cursor-pointer hover:bg-gray-200">{suggestion.name}</div>
                 </Link>
               ))}

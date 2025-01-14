@@ -1,7 +1,5 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-import { usePathname } from "next/navigation";
 import { PropsWithChildren } from "react";
 
 interface Props {
@@ -13,16 +11,6 @@ interface Props {
 }
 
 const Drawer = ({ isOpen, onClose, children, className, title, arrowClassName = "px-3" }: PropsWithChildren<Props>) => {
-  const drawerRef = useRef<HTMLDivElement>(null);
-  const pathname = usePathname();
-  const initialPathname = useRef(pathname);
-
-  useEffect(() => {
-    if (pathname !== initialPathname.current) {
-      onClose();
-    }
-  }, [pathname, onClose]);
-
   if (!isOpen) return null;
 
   return (
@@ -31,7 +19,7 @@ const Drawer = ({ isOpen, onClose, children, className, title, arrowClassName = 
         <div className={`w-full flex justify-end items-center ${arrowClassName}`}>
           <div className="triangle bg-neutral-lighter w-12 h-6" />
         </div>
-        <div ref={drawerRef} className="h-full px-4 bg-neutral-lighter flex-col items-center flex w-full md:w-auto min-w-[360px] rounded-sm">
+        <div className="h-full px-4 bg-neutral-lighter flex-col items-center flex w-full md:w-auto min-w-[360px] rounded-sm">
           <div className="self-stretch justify-center items-center gap-2.5 inline-flex">{title && <div className="w-36 h-14 text-black text-2xl font-bold">{title}</div>}</div>
           {children}
         </div>

@@ -13,8 +13,8 @@ const GoBackAction = ({ text, textSize = "text-2xl", showMobile = false }: Props
   const router = useRouter();
 
   return (
-    <div className={`w-full h-8 justify-start items-center gap-2.5  cursor-pointer ${!showMobile && "hidden"} md:flex`} onClick={() => router.back()}>
-      <IconArrow />
+    <div className={`w-full h-8 justify-start items-center gap-2.5 whitespace-nowrap  cursor-pointer ${showMobile ? "flex" : "hidden"} md:flex`} onClick={() => router.back()}>
+      <IconArrow className={textSize} />
       <span className={`w-80 text-black  ${textSize}  font-normal font-radley`}>{text}</span>
     </div>
   );
